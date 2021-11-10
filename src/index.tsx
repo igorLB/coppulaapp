@@ -3,10 +3,7 @@ import ReactDOM from "react-dom";
 
 import 'bootstrap/dist/js/bootstrap.bundle'
 import 'bootstrap/dist/css/bootstrap.min.css'
-
-const App = () => (
-  <h1>Coppula App <button className="btn btn-primary">Oi</button> </h1>
-);
+import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
