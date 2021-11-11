@@ -40,6 +40,7 @@ const config: webpack.Configuration = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "src/index.html",
+      favicon: "src/assets/images/favicon.ico",
     }),
     new webpack.HotModuleReplacementPlugin(),
   ],
@@ -47,7 +48,7 @@ const config: webpack.Configuration = {
   devServer: {
     historyApiFallback: true,
     static: {
-      directory: path.join(__dirname, 'public'),
+      directory: path.join(__dirname, "public"),
     },
     compress: true,
     port: 9000,
