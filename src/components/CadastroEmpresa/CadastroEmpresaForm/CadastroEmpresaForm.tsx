@@ -100,8 +100,8 @@ function CadastroEmpresaForm() {
                     <Input name="endereco" type="text" placeholder="Endereço" className="form-control" />
                     <Input name="pontoReferencia" type="text" placeholder="Ponto de Referência" className="form-control" />
 
-                    <div className="w-100 text-center mt-4 mb-4">
-                        <div className="">
+                    <div className="w-100 mt-4 mb-4">
+                        <div className="d-flex justify-content-around">
                             <button type="submit" className="btn btn-dark">Salvar</button>
                             <Link to="/cadastro-cliente" className="btn btn-dark">Avançar</Link>
                             <button  type="button" onClick={() => setFormValues(initialValues)} className="btn btn-dark">Limpar</button>
