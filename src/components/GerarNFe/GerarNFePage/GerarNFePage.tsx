@@ -1,9 +1,12 @@
 import React from 'react'
+import Head from '../../../shared/Head/Head'
+import GerarNFeForm from '../GerarNFeForm/GerarNFeForm'
 
 function GerarNFePage() {
     return (
         <div>
-            <h1>GERAR NFE</h1>
+            <Head title="Gerar NFe" />
+            <GerarNFeForm />
         </div>
     )
 }
