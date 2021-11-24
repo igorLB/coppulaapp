@@ -1,27 +1,21 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import MenuPage from './components/Menu/MenuPage/MenuPage'
-import logo from './assets/images/pdwtech.jpg'
 import CadastroEmpresaPage from './components/CadastroEmpresa/CadastroEmpresaPage/CadastroEmpresaPage'
 import CadastroClientePage from './components/CadastroCliente/CadastroClientePage/CadastroClientePage'
 import CadastroImpostoPage from './components/CadastroImposto/CadastroImpostoPage/CadastroImpostoPage'
 import CadastroServicoPage from './components/CadastroServico/CadastroServicoPage/CadastroServicoPage'
 import Sobre from './components/Sobre/Sobre'
 import GerarNFePage from './components/GerarNFe/GerarNFePage/GerarNFePage'
+import Nav from './components/Nav/Nav'
+
 
 
 function App() {
     return (
         <div>
             <BrowserRouter>
-                <nav className="navbar navbar-light bg-light">
-                    <div className="container-fluid">
-                        <Link className="navbar-brand" to="/">
-                            <img src={logo} alt="" width="30" height="24" className="d-inline-block align-text-top" />
-                            Bootstrap
-                        </Link>
-                    </div>
-                </nav>
+                <Nav />
                 <Routes>
                     <Route path="" element={<MenuPage />} />
                     <Route path="cadastro-empresa" element={<CadastroEmpresaPage />} />
