@@ -9,6 +9,8 @@ import Sobre from './components/Sobre/Sobre'
 import GerarNFePage from './components/GerarNFe/GerarNFePage/GerarNFePage'
 import Nav from './components/Nav/Nav'
 
+import './assets/styles/custom-bootstrap.css'
+
 
 
 function App() {
