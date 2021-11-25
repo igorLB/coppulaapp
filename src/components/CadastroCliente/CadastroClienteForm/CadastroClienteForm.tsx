@@ -104,7 +104,7 @@ function CadastroClienteForm() {
                     <div className="w-100 mt-4 mb-4">
                         <div className="d-flex justify-content-around">
                             <button className="btn btn-dark">Salvar</button>
-                            <Link to="/cadastro-impostos" className="btn btn-dark">Avançar</Link>
+                            <button type="button" className="btn btn-dark">Exluir</button>
                             <button  type="button" onClick={() => setFormValues(initialValues)} className="btn btn-dark">Limpar</button>
                         </div>
                     </div>

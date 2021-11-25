@@ -21,9 +21,9 @@ function Nav() {
                         <IconCompany size={35} />
                     </a>
                     <ul className="dropdown-menu">
-                        <li><NavLink className="dropdown-item" to="/cadastro-empresa">Cadastro Empresa</NavLink></li>
-                        <li><NavLink className="dropdown-item" to="/cadastro-impostos">Cadastro Impostos</NavLink></li>
-                        <li><NavLink className="dropdown-item" to="/cadastro-servico">Cadastro Serviços</NavLink></li>
+                        <li><NavLink className="dropdown-item" to="/cadastro-empresa">Empresa</NavLink></li>
+                        <li><NavLink className="dropdown-item" to="/cadastro-impostos">Impostos</NavLink></li>
+                        <li><NavLink className="dropdown-item" to="/cadastro-servico">Serviços</NavLink></li>
                     </ul>
                 </li>
                 <li className="nav-item">
